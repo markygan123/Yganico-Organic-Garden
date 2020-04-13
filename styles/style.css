@@ -107,3 +107,48 @@ nav .links a {
 	bottom: 80px;
 
 }
+
+.about-yganico {
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 2fr 2.5fr;
+	grid-auto-flow: column;
+	align-items: center;
+	justify-items: center;
+}
+
+.about-left > * {
+	margin-bottom: 50px;
+}
+
+.about-left {
+	display: flex;
+	flex-direction: column;
+	/*border: 2px solid black;*/
+	margin-left: 60px;
+	margin-top: 15px;
+}
+
+.about-left .left-p1 {
+	text-transform: uppercase;
+	font-size: 1.3rem;
+
+}
+
+.about-left h2 {
+	margin-top: -20px;
+	font-size: 5.5rem;
+	text-transform: capitalize;
+}
+
+.about-left .left-p2 {
+	font-size: 1.6rem;
+	line-height: 2;
+}
+
+
+
+.about-right img {
+	height: 400px;
+	width: 550px;
+}
