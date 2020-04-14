@@ -93,26 +93,10 @@ nav .links a {
 	color: #fff;
 }
 
-/*.hero-image > a {
-	grid-row: 4 / 5;
-	color: #363636;
-	font-size: 2rem;
-	margin-left: 50px;
-	padding: 20px;
-	background-color: #f2bb55; 
-	width: 25%;
-	text-align: center;
-	text-transform: uppercase;
-
-	position: absolute;
-	bottom: 80px;
-
-}*/
-
 .action-link a {
 	grid-row: 4 / 5;
 	color: #363636;
-	font-size: 2.3rem;
+	font-size: 2rem;
 	margin-left: 50px;
 	padding: 20px 40px;
 	background-color: #f2bb55;
@@ -222,3 +206,64 @@ nav .links a {
 	font-size: 1.5rem;
 	line-height: 1.5;
 }
+
+.yganico-products {
+	height: 100vh;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+
+}
+
+.products-titles {
+	grid-column: 1 / 3;
+	text-align: center;
+
+	margin-top: 150px;
+}
+
+.products-titles p {
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	margin-bottom: 20px;
+}
+
+.products-titles h2 {
+	font-size: 5rem;
+	text-transform: uppercase;
+}
+
+.products-cards {
+	grid-column: 1 / -1;
+
+	display: grid;
+	width: 85%;
+	justify-self: center;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	margin-bottom: 20px;
+}
+
+.cards {
+	text-align: center;
+}
+
+.cards > * {
+	margin-bottom: 20px;
+}
+
+.cards i + p {
+	font-size: 2.8rem;
+	text-transform: capitalize;
+}
+
+.cards .fas {
+	font-size: 8rem;
+	color: #f2bb55;
+}
+
+.cards p + p {
+	font-size: 1.5rem;
+}
+
+
