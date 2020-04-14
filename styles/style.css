@@ -93,7 +93,7 @@ nav .links a {
 	color: #fff;
 }
 
-.hero-image > a {
+/*.hero-image > a {
 	grid-row: 4 / 5;
 	color: #363636;
 	font-size: 2rem;
@@ -107,6 +107,18 @@ nav .links a {
 	position: absolute;
 	bottom: 80px;
 
+}*/
+
+.action-link a {
+	grid-row: 4 / 5;
+	color: #363636;
+	font-size: 2.3rem;
+	margin-left: 50px;
+	padding: 20px 40px;
+	background-color: #f2bb55;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
 }
 
 .about-yganico {
