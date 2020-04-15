@@ -267,3 +267,67 @@ nav .links a {
 }
 
 
+.yganico-testimonials {
+	height: 120vh;
+
+	display: grid;
+	grid-template-rows: 0.5fr 1fr;
+	background: #e0e0e0;
+}
+
+.testimonials-titles {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.testimonials-titles p {
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	margin-bottom: 20px;
+}
+
+.testimonials-titles h2 {
+	font-size: 5rem;
+	text-transform: uppercase;
+}
+
+
+.testimonials-cards {
+	display: grid;
+	width: 1200px;
+	height: 300px;
+	margin-top: 50px;
+	grid-template-columns: repeat(3, 1fr);
+	justify-self: center;
+	background: #fff;
+}
+
+.testimony {
+	margin: 50px;
+}
+
+.testimony .fas {
+	margin-bottom: 30px;
+	font-size: 2.8rem;
+	color: #f2bb55;
+}
+
+.testimony .fas + p {
+	font-style: italic;
+	margin-bottom: 25px;
+}
+
+.testimony p {
+	font-size: 1.4rem;
+}
+
+.testimony .t-name {
+	font-size: 1.6rem;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.testimony .occupation {
+	text-transform: capitalize;
+}
+
