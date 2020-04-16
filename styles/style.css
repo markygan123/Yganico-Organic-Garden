@@ -399,6 +399,153 @@ nav .links a {
 	padding: 20px 35px;
 	background: #f6ff91;
 	color: #595959;
-
 }
 
+.yganico-gallery {
+	display: grid;
+	height: 250vh;
+	grid-template-rows: 0.5fr 1fr;
+}
+
+.yganico-gallery img {
+	height: 345px;
+	width: 350px;
+}
+
+.gallery-titles {
+	text-align: center;
+	margin-top: 200px;
+	margin-bottom: 50px;
+}
+
+.gallery-titles p {
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	margin-bottom: 20px;
+}
+
+.gallery-titles h2 {
+	font-size: 4rem;
+	text-transform: uppercase;
+}
+
+.gallery-container {
+	display: grid;
+	width: 80vw;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 20px 20px;
+	justify-items: center;
+	margin: 0 auto;
+}
+
+.yganico-footer {
+	display: grid;
+	grid-template-rows: 1fr 0.1fr;
+
+	background-color: #494949;
+}
+
+.footer-top {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 0.3fr 1fr 0.5fr;
+	place-items: center center;
+}
+
+.first-col,
+.quick-links,
+.contact-info {
+	grid-row: 2 / 3;
+}
+
+.first-col {
+	margin-left: 100px;
+}
+
+.first-col img {
+	width: 320px;
+	height: 120px;
+	margin-bottom: 10px;
+}
+
+.first-col p {
+	font-size: 1.3rem;
+	color: #a6a6a6;
+	margin-bottom: 25px;
+	line-height: 1.5;
+}
+
+.first-icons .fab {
+	color: #fff;
+	font-size: 1.5rem;
+	margin-right: 25px;
+}
+
+.quick-links {
+	color: #a6a6a6;
+	margin-top: 30px;
+}
+
+.quick-links p {
+	font-size: 2.7rem;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+
+.quick-links ul {
+	position: relative;
+	list-style: none;
+}
+
+.quick-links li::before {
+	content: "▶";
+	position: absolute;
+	left: 0;
+}
+
+.quick-links li {
+	font-size: 1.6rem;
+	margin-bottom: 10px;
+}
+
+.quick-links a {
+	text-decoration: none;
+	color: #a6a6a6;
+	text-transform: capitalize;
+	margin-left: 20px;
+}
+
+.contact-info p:first-child {
+	font-size: 2.7rem;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+	color: #a6a6a6;
+}
+
+.contact-info i + p {
+	text-transform: uppercase;
+}
+
+.contact-info i + p + p {
+	margin: 15px 0;
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+.contact-info i,
+.contact-info i + p {
+	display: inline;
+	font-size: 1.6rem;
+	color: #f2bb55;
+}
+
+.ci-address p ~ p,
+.ci-phone p ~ p,
+.ci-email p ~ p {
+	font-size: 1.3rem;
+}
+
+.yganico-footer .footer-bottom {
+	background-color: #262626;
+	color: #fff;
+}
