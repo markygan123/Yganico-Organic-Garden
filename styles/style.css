@@ -448,7 +448,7 @@ nav .links a {
 .footer-top {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 0.3fr 1fr 0.5fr;
+	grid-template-rows: 0.15fr 1fr 0.3fr;
 	place-items: center center;
 }
 
@@ -513,6 +513,11 @@ nav .links a {
 	color: #a6a6a6;
 	text-transform: capitalize;
 	margin-left: 20px;
+}
+
+.contact-info {
+	margin-top: 70px;
+	width: 60%;
 }
 
 .contact-info p:first-child {
