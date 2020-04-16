@@ -553,4 +553,8 @@ nav .links a {
 .yganico-footer .footer-bottom {
 	background-color: #262626;
 	color: #fff;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
