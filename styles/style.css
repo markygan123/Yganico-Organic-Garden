@@ -448,7 +448,7 @@ nav .links a {
 .footer-top {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 0.15fr 1fr 0.3fr;
+	grid-template-rows: 0.1fr 1fr 0.2fr;
 	place-items: center center;
 }
 
@@ -557,4 +557,19 @@ nav .links a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.footer-bottom .yganico-rights {
+	margin-left: 90px;
+	font-size: 1.3rem;
+	text-transform: capitalize;
+}
+
+.footer-bottom .yganico-links {
+	margin-right: 120px;
+}
+
+.footer-bottom .yganico-links i {
+	margin-right: 20px;
+	font-size: 1.30rem;
 }
