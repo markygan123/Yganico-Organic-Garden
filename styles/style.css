@@ -401,21 +401,15 @@ nav .links a {
 	color: #595959;
 }
 
-.yganico-gallery {
+/*.yganico-gallery {
 	display: grid;
 	height: 250vh;
-	grid-template-rows: 0.5fr 1fr;
-}
-
-.yganico-gallery img {
-	height: 345px;
-	width: 350px;
+	grid-template-rows: 0.5fr 2fr;
 }
 
 .gallery-titles {
 	text-align: center;
 	margin-top: 200px;
-	margin-bottom: 50px;
 }
 
 .gallery-titles p {
@@ -429,14 +423,59 @@ nav .links a {
 	text-transform: uppercase;
 }
 
+.gallery-container img {
+	display: block;
+	height: 340px;
+	width: 350px;
+}
+
 .gallery-container {
 	display: grid;
-	width: 80vw;
-	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	grid-gap: 20px 20px;
-	justify-items: center;
-	margin: 0 auto;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	align-items: center;
+	margin: 50px;
+}*/
+
+.yganico-gallery {
+	display: grid;
+	grid-template-rows: 0.03fr 1fr;
+	height: 250vh;
 }
+
+.gallery-titles {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.gallery-titles p {
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	margin-bottom: 20px;
+}
+
+.gallery-titles h2 {
+	font-size: 4rem;
+	text-transform: uppercase;
+}
+
+.gallery-container img {
+	display: block;
+	height: 300px;
+	width: 300px;
+}
+
+.gallery-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+	grid-template-rows: repeat(3, 300px);
+	grid-gap: 20px;
+	place-items: center center;
+	margin: 0 100px;
+	margin-top: 50px;
+}
+
+
+
 
 .yganico-footer {
 	display: grid;
