@@ -48,6 +48,11 @@ nav .links a {
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 1.3rem;
+	transition: filter 400ms linear, height 2s ease-in;
+}
+
+nav .links a:hover {
+	filter: opacity(50%);
 }
 
 .hero-image::before {
@@ -69,7 +74,6 @@ nav .links a {
 
 .hero-image {
 	position: relative;
-	/*height: 105vh;*/
 
 	display: grid;
 	grid-template-columns: 1.4fr 1fr;
@@ -103,6 +107,11 @@ nav .links a {
 	text-transform: uppercase;
 	border: none;
 	border-radius: 5px;
+	transition: background-color 500ms linear, height 2s ease-in;
+}
+
+.action-link a:hover {
+	background-color: #ffa600;
 }
 
 .about-yganico {
@@ -404,6 +413,10 @@ nav .links a {
 	padding: 20px 35px;
 	background: #f6ff91;
 	color: #595959;
+}
+
+.send-request a:hover {
+	background-color: #ffa600;
 }
 
 .yganico-gallery {
