@@ -528,6 +528,7 @@ nav .links a:hover {
 .quick-links li {
 	font-size: 1.6rem;
 	margin-bottom: 10px;
+
 }
 
 .quick-links a {
@@ -536,6 +537,17 @@ nav .links a:hover {
 	text-transform: capitalize;
 	margin-left: 20px;
 }
+
+.quick-links li,
+.quick-links a {
+	transition: color 400ms linear, height 2s ease-in;
+}
+
+.quick-links li:hover,
+.quick-links a:hover {
+	color: #fff;
+}
+
 
 .contact-info {
 	margin-top: 70px;
